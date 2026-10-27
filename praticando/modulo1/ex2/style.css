@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+    background-color: yellowgreen;
+    color: white;
+    font-size: 15px;
+    box-shadow: 1px 1px 1;
+    text-align: center;
+    
+}
+h1{
+      color: black;
+      text-decoration: underline;
+}
+h2{
+     text-decoration: underline; 
+    color: black;
+}
+
+mark{
+    color: white;
+    background-color: black;
+}

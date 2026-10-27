@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mideias em HTML5</title>
+</head>
+
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>tente abrir este site em vários dispositivos diferentes
+        ou simplesmente aumente e diminua o tamanho do seu navegado
+    </p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/pequena.png" type="image/png">
+
+        <source media="(max-width:1050px )" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem grande">
+    </picture>
+    <h2>Rwproduzindo audio</h2>
+    <p>vamos aprender a reproduzir áudio em HTML</p>
+    <!-- voçe pode também adicionar outros formatos de audio caso o mp3 não seje compativel com o seu navegador-->
+
+    <audio preload="metadata" autoplay controls> 
+
+       <source src="midia/1-05 Sonhar.mp3" type="audio/mp3">
+       <source src="midia/1-05 Sonhar.ogg" type="audio/ogg">
+         <source src="midia/1-05 Sonhar.wav" type="audio/wav"> 
+         <p>infelizmente o áudio não é compatível com este navegador</p>
+         <a href="midia/1-05 Sonhar.mp3">clique aqui para baixar o arquivo mp3</a>
+    </audio>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@font-face{
+    font-family:'Android';
+    src: url('idroid.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+ box-sizing: border-box;
+ padding: 0px;
+ margin: 0px;
+}
+body{
+    background-color:#71e4a3;
+    
+}
+#cabecalho{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    width:100%;
+    padding:10px;
+    color: white;
+    background-image:linear-gradient(to top,#173f29,#1ae776);
+    border-width:100% ;
+}
+#tema-principal{
+    padding-bottom: 15px;
+    padding-top: 5px;
+    text-align: center;
+}
+.paragrafo{
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top:5px;
+     
+}
+#navegacao>a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+#conteudo{
+    background-color: white;
+    width:1300px;
+     margin:auto;
+    padding-top:10px;
+   
+
+}
+
+.img-content aside {
+   margin-top: 30px;
+}
+.img-content aside img {
+    width: 97%;
+    margin-left: 17px;
+}
+.subtema{
+    margin-left: 15px;
+    color: #173f29;
+    font-family:Android;
+}
+.paragrafo1{
+    text-align: justify;
+    margin-left: 10px;
+    
+     
+   
+
+}
+.paragrafo1>a{
+ color: #173f29;
+}
+.imagem1{
+  width:    auto;
+}
+
+.tema-adicional{
+    background-color: white;
+    padding-top:1px ;
+    width:1300px ;
+   
+    align-items: center;
+    margin: auto;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.178) ;
+}
+.titulo{
+    width: 1150px;
+    background-color:#40c27a ;
+    border-radius:5px 5px 0px 0px ;
+    margin-left:50px;
+    padding-top:1px;
+    margin-top: 15px;
+    color: white;
+    padding-bottom: 1px;
+    margin-bottom:15px ;
+    border: solid 30px;
+     
+}
+#assunto{
+    text-align: justify;
+    margin-left: 50px;
+    margin-bottom:5px;
+    width: 1050px;
+    background-color: #84e1ac8f;
+}

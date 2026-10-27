@@ -1,0 +1,84 @@
+@charset "UTF-8";
+*{
+    body{
+        font:bold normal 1em Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-image:linear-gradient(to top,#84c0da,#6e97c5);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         width:500px;
+         padding: 150px;
+         border-radius: 10px;
+         margin:auto;
+         box-shadow: 1px 1px 1px 1px black;
+    }
+    #texto-principal{
+               font-family: Georgia, 'Times New Roman', Times, serif;
+               font-size: 45px;
+               text-align: center;
+               text-decoration: underline;
+               text-shadow:none;
+               
+            }
+
+            .sub-titulo1 {
+                font-size: 30px;
+                color:hsla(198, 15%, 31%, 0.842);
+               text-align: justify;
+            }
+            .sub-titulo2{
+                font-size: 30px;
+                  color:hsla(197, 33%, 21%, 0.87);
+               text-align: justify;
+            }
+            .sub-titulo3{
+                   font-size: 30px;
+                  color:hsla(200, 7%, 16%, 0.801);
+               text-align: justify;
+            }
+            #sub-tema{
+                 font-size: 45px;
+                 text-align: center;
+                  text-decoration: underline;
+            }
+
+
+            .texto-tema1{
+                font-size: 30px;
+                color: hsl(212, 50%, 37%);
+            }
+            .texto-tema2{
+                font-size: 30px;
+                color: hsl(212, 70%, 38%);
+            }
+            .texto-tema3{
+                font-size: 30px;
+                color: #3886df;
+            }
+            .sesao > p { 
+                
+                    display: none;
+                 
+            }
+            .sesao:hover > p{
+                display: block;
+                color: darkred;
+            }
+            a{
+                color:red ;
+                text-decoration: none;
+            }
+
+          .site:visited{
+            color:purple;
+            text-decoration: none;
+          }
+          .site:hover{
+            text-decoration: underline;
+            color: blue;
+
+          }
+          .site::after{
+            content:'[link]';
+            color: #6e97c5;
+
+          }
+}

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+*{
+  body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:dimgray ;
+  }
+  header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+  }
+  #navegacao  {
+   background-color: rgb(102, 102, 102);
+   padding: 3px;
+  box-shadow: 3px -5px 20px 0px rgba(0, 0, 0, 0.507);
+
+  }
+  #navegacao > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+
+  }
+  #navegacao > a:hover{
+    text-decoration: underline;
+  }
+  #noticias{
+    background-color: white;
+   padding: 10px;
+    margin: 10px;
+  }
+   footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+
+   }
+   footer > p{
+    margin: 0px;
+
+   }
+   main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+   }
+   article{
+    background-color: lightgray;
+    padding:5px ;
+   }
+   article > aside{
+     background-color: rgb(165, 164, 164);
+     text-align: center
+   }
+}

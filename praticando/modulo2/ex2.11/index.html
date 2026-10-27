@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas Personalizadas</title>
+    <style>
+        h1{
+            padding:10px ;
+             text-align: center;
+            border: 5px solid black;
+            border-image: url("borda.png");
+            border-image-slice: 35;
+            border-image-repeat: repeat;
+            color: blue;
+
+        }
+        p{ 
+            padding-top:20px;
+            font-size: 30px;
+            color: red;
+            display: block;
+            text-align: center;
+            border: 5px solid black;
+            border-image: url("borda.png");
+            border-image-slice: 35;
+            border-image-repeat: repeat;
+            color: blue;
+        }
+        .imagem{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            margin: auto;
+
+
+
+        }
+
+    </style>
+</head>
+<body>
+   <h1>Olá Francisco estás bem? 
+ </h1> 
+ <p> Olá Sou o Sandro e estou perto de ti</p>
+ <img src="borda.png" alt="" class="imagem">
+ <audio src="musica/nga_quando_o_kumbu_cair_mp3_82422.mp3" controls autoplay></audio>
+    
+</body>
+</html>

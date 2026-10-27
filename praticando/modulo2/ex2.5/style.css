@@ -1,0 +1,43 @@
+@charset "UTF-8";
+*{
+    body{
+        background-color: rgb(241, 225, 225);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+         color:  rgb(70, 163, 163);
+    }
+    h1#principal{
+        text-align: center;
+        background-color: bisque;
+        padding:20px ;
+        font: normal italic 45px 'Times New Roman', Times, serif;
+    }
+    h2.basico{
+        text-align: center;
+        font: normal bold 30px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: rgba(31, 44, 233, 0.479);
+        color: aliceblue;
+        text-shadow: 30px;
+    }
+      h2.intermediario{
+        text-align: center;
+        font: normal bold 30px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: rgba(228, 125, 8, 0.603);
+        color: aliceblue;
+        text-shadow: 30px;
+    }
+      h2.avancado{
+        text-align: center;
+        font: normal bold 30px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: rgba(48, 233, 31, 0.479);
+        color: aliceblue;
+        text-shadow: 30px;
+    }
+    h1.titulo{
+        text-align: center;
+        color: white;
+        background-color: rgba(62, 160, 135, 0.5);
+          font: normal italic 45px  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}

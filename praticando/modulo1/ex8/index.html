@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+
+<body>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu
+        navegador. </p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="./imagens/pequena.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="./imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="flexível">
+    </picture>
+
+  
+        <h2>reprozindo video</h2>
+        <p>videos em hteml</p>
+       
+      <video width="600px" poster="imagens/foto.jpg" controls>
+        <source src="videos/video.mp4.mp4" type="video/mp4">
+        <source src="videos/video.webm.webm" type="video/webm">
+    </video>
+    
+    <h1>audio reproduzido</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="metadata" controls >
+        <source src="midia/01 - Too Good at Goodbyes.wav" type="audio/wav">
+        <p>o seu navegador não suporta este formato click <a href="midia/01 - Too Good at Goodbyes.wav">aqui para baixar
+                o audio</a></p>
+        <!-- os formatos de audios são mp3 wav ogg -->
+        <!-- é mais aconcelhavel usar usar os formatos mp3 e ogg para mídias de audio  -->
+  
+      
+</body>
+
+</html>
